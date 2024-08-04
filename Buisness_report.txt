@@ -1,0 +1,58 @@
+# Business Report: Sentiment Analysis of Popflex Bubble Skort
+
+## Executive Summary
+
+This report presents the results of the sentiment analysis conducted on customer feedback regarding the Popflex bubble skort product. The analysis aimed to determine the overall reception of the product and provide insights into whether the product should be launched or modified. 
+
+## Objective
+
+The primary objective of this analysis was to assess customer sentiment toward the Popflex bubble skort to guide the decision on its potential launch. The analysis focused on:
+- Evaluating the general sentiment of customer comments.
+- Identifying key areas for improvement.
+- Providing actionable recommendations for product launch decisions.
+
+## Methodology
+
+The sentiment analysis was conducted using the following approach:
+
+1. **Data Collection:**
+   Customer feedback was collected from Youtube comment section using youtubeAPIv3 and compiled into a csv dataframe.
+
+2. **Data Preprocessing:**
+   - **Text Cleaning:** Removal of emojis and other non-text elements.
+   - **Sentiment Analysis:** Utilized textblob and the `transformers` library with a pre-trained model (`distilbert-base-uncased-finetuned-sst-2-english`) to classify sentiments into categories (POSITIVE, NEGATIVE).
+
+3. **Analysis:**
+   - **Sentiment Classification:** Comments were classified into POSITIVE and NEGATIVE categories.
+   - **Polarity Scoring:** Sentiment scores were analyzed to determine the strength of the sentiments expressed.
+
+## Findings
+
+1. **Overall Sentiment:**
+   The sentiment analysis revealed a predominance of negative feedback regarding the Popflex bubble skort. Key metrics include:
+   - **Negative Sentiment:** A significant portion of comments expressed dissatisfaction with the product.
+   - **Positive Sentiment:** A smaller percentage of comments were positive, with many expressing lukewarm or mixed feelings.
+
+2. **Specific Insights:**
+   - **Common Concerns:** Customers highlighted issues related to the design and functionality of the bubble skort.
+   - **Positive Feedback:** Positive comments often focused on aspects like style and comfort, but were less frequent.
+
+3. **Sentiment Scores:**
+   - **Comments with High Positive Scores:** A limited number of comments had a sentiment score greater than 0.5, indicating strong positive sentiment.
+
+## Recommendations
+
+1. **Re-evaluate Product Launch:**
+   Given the predominant negative feedback, it is advisable to reconsider the current launch plans. Delaying the launch to address customer concerns could be beneficial.
+
+2. **Targeted Improvements:**
+   - **Design Adjustments:** Focus on the specific areas of concern raised by customers. Consider iterative testing and feedback collection to refine the product.
+   - **Additional Research:** Conduct further qualitative research, such as focus groups, to gain deeper insights into customer preferences.
+
+3. **Monitor Post-Launch Feedback:**
+   If the decision is made to proceed with the launch, implement a robust plan for monitoring post-launch feedback and be prepared to make iterative improvements based on real-time customer responses.
+
+## Conclusion
+
+The sentiment analysis indicates that the Popflex bubble skort faces significant challenges in terms of customer acceptance. Addressing the negative feedback through targeted improvements and further research will be crucial for enhancing the product's market potential and customer satisfaction.
+
