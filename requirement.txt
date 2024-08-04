@@ -1,0 +1,6 @@
+transformers==4.31.0
+torch==2.0.1
+pandas==2.0.3
+textblob==0.17.1
+emoji==2.2.0
+google-api-python-client==2.80.0
